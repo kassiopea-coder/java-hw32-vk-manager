@@ -11,9 +11,13 @@ public class Post {
     private String text;
     private boolean friendsOnly;
     private int viewsCount;
+    private int likesCount;
+    private int repostsCount;
+    private int commentsCount;
+    private boolean  isPinned;
     private boolean  markedAsAds;
     private boolean  canBeViewedByDonutOnly;
     private CommentsInfo commentsInfo;
 
-    // + getters/setters*
+    // + get/set на все поля
 }
